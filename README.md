@@ -1,6 +1,6 @@
 # William's NeoVim config 🧸
 
-This repository is my current nvim config for personal development.
+This repository is my current nvim config for personal development.<br>
 <sub><i>(I use neovim btw)</i></sub>
 
 ## Keybinds
