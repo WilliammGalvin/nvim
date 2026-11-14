@@ -112,21 +112,21 @@ This repository is my current nvim config for personal development.<br>
 
 **Normal mode**
 
-- `g d` go to definition
-- `g D` go to declaration
+- `g + d` go to definition
+- `g + D` go to declaration
 - `K` hover docs
 - `Leader + r + n` rename symbol
 - `Leader + c + a` code action
 - `Leader + c + d` line diagnostics
 - `Leader + c + x` jump to context (function header)
-- `] d` / `[ d` next / previous diagnostic
-- `] t` / `[ t` next / previous TODO comment
+- `] + d` / `[ + d` next / previous diagnostic
+- `] + t` / `[ + t` next / previous TODO comment
 
 ### Git
 
 **Normal mode**
 
-- `] h` / `[ h` next / previous hunk
+- `] + h` / `[ + h` next / previous hunk
 - `Leader + g + s` stage hunk
 - `Leader + g + r` reset hunk
 - `Leader + g + p` preview hunk
