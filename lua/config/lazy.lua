@@ -23,7 +23,7 @@ require("lazy").setup({
     { import = "plugins.syntax" },
     { import = "plugins.ui" },
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  install = { colorscheme = { "oxocarbon", "habamax" } },
   checker = { enabled = false },
   change_detection = { notify = false },
 })

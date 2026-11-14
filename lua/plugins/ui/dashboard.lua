@@ -8,7 +8,7 @@ local projects = {
     items = {
       { name = "cherry",     path = "~/projects/compilers/Cherry" },
       { name = "petal",      path = "~/projects/compilers/dependencies/petal" },
-      { name = "dotorchard", path = "~/projects/compilers/dotorchard" },
+      { name = "dotorchard", path = "~/projects/compilers/dependencies/dotorchard" },
     },
   },
   {
