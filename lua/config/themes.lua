@@ -3,8 +3,8 @@ local M = {}
 M.default = "oxocarbon"
 
 M.list = {
-  "oxocarbon",
-  "tokyonight",
+	"oxocarbon",
+	"tokyonight",
 }
 
 return M

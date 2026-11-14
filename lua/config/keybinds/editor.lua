@@ -22,8 +22,12 @@ map("n", "J", "mzJ`z", { desc = "Join lines, keep cursor position" })
 map("n", "x", '"_x', { desc = "Delete character without yanking" })
 map({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete without yanking" })
 map("x", "<leader>p", '"_dP', { desc = "Paste over selection, keep register" })
-map("n", "<leader>sr", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]],
-  { desc = "Replace word under cursor in file" })
+map(
+	"n",
+	"<leader>sr",
+	[[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]],
+	{ desc = "Replace word under cursor in file" }
+)
 
 -- indenting
 map("v", "<", "<gv", { desc = "Indent left, keep selection" })
